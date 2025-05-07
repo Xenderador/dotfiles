@@ -1,0 +1,11 @@
+.DS_Store
+
+# Ignore all files in the .env directory
+.env/
+
+# Ignore all logs
+*.log
+
+# Ignore temporary files
+*~
+*.swp 
