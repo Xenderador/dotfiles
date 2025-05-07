@@ -15,5 +15,31 @@ This section describes the Tmux setup I use to enhance my terminal workflow. Tmu
    ```bash
    brew install tmux
 
-   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-   ```
+2. Install Tmux Plugin Manager (tpm)
+To make the most out of Tmux, we’ll use tpm (Tmux Plugin Manager) to manage plugins. To install it, run the following command:
+  
+       git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+ ### Useful Commands:
+   
+ Start Tmux:
+  
+    tmux
+
+ Detach from session:
+
+    C-a d
+
+ List sessions:
+
+    tmux list-sessions
+
+Kill session:
+
+    tmux kill-session -t session_name
+
+### Troubleshooting:
+
+Reloading Config: If you make changes to your .tmux.conf file and want to reload it in an existing Tmux session, use:
+
+    C-a r
