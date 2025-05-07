@@ -49,8 +49,12 @@ Install these for a better experience:
 
 ripgrep: for telescope
 
-`brew install ripgrep`
+```bash 
+ brew install ripgrep
+```
 
 fd: fast file search
 
-`brew install fd`
+```bash
+ brew install fd
+```
